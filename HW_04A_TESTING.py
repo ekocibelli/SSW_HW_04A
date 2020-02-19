@@ -1,5 +1,5 @@
 import unittest
-from HW_04A_ekocibelli import get_user_data, get_user_id
+from HW_04A_ekocibelli import get_user_data
 
 
 class Test_Github_Data(unittest.TestCase):
