@@ -40,15 +40,3 @@ def get_user_data(user_id):
             return user_info
     except ValueError:
         return 'Bad data.'
-
-
-def main():
-    """main function"""
-    try:
-        get_user_data(get_user_id())
-    except ValueError:
-        print('Bad data. Try again...')
-
-
-if __name__ == '__main__':
-    main()
